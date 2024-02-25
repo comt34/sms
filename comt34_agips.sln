@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comt34_agips", "comt34_agips\comt34_agips.csproj", "{C068E67E-C307-4A19-A58D-05432E3FAD4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schoolservices", "schoolservices", "{A07F1607-44F6-4F05-88E5-7467B6563DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolservices", "schoolservices\schoolservices.csproj", "{0056A200-C408-40CD-832D-4611DB9CF08E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C068E67E-C307-4A19-A58D-05432E3FAD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C068E67E-C307-4A19-A58D-05432E3FAD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C068E67E-C307-4A19-A58D-05432E3FAD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0056A200-C408-40CD-832D-4611DB9CF08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0056A200-C408-40CD-832D-4611DB9CF08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0056A200-C408-40CD-832D-4611DB9CF08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0056A200-C408-40CD-832D-4611DB9CF08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0056A200-C408-40CD-832D-4611DB9CF08E} = {A07F1607-44F6-4F05-88E5-7467B6563DB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {157A83F0-5C92-4BDC-9795-CD090B55059E}
